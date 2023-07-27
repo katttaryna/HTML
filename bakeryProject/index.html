@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Family bakery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets" type="icon">
+</head>
+<body>
+ <header class="header container">
+   <a href="#about">
+      <img src="./assets/logo-light.svg" alt="logo " />
+     </a>
+     <div class="header-menu">
+         <ul class="header-menu-list">
+         <li><a href="#about">О нас</a></li>
+         <li><a href="#menu">Меню</a></li>
+         <li><a href="#order">Заказы</a></li>
+         </ul>
+         <div>
+             +375 33 070 04 20
+         </div>
+     </div>
+ </header>
+
+    <section class="hero container">
+        <a name="about"></a>
+        <div class="hero-content">
+            <h1 class="hero-title">Домашняя выпечка с душой и любовью</h1>
+            <p class="hero-description">Свежие булочки из натуральных ингредиентов с бесплатной доставкой прямо к вашему столу</p>
+            <button class="btn btn-about">Узнать больше</button>
+        </div>
+        <div class="hero-img">
+            <img src="./assets/hero.png" alt="hero-bakery"/>
+        </div>
+    </section>
+
+  <section class="menu container">
+      <a name="menu"></a>
+     <h2 class="menu-title">Наше меню</h2>
+      <div class="menu-content">
+      <div class="menu-item">
+          <img src="./assets/menu1.png" alt="img-menu-item"/>
+          <div class="menu-item-content">
+              <h3 class="title-menu-item">Кекс шоколадный</h3>
+              <p class="description-menu-item">Lorem, ipsum dolor sit amet</p>
+
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="./assets/menu2.png" alt="img-menu-item"/>
+          <div class="menu-item-content">
+              <h3 class="title-menu-item">Хлеб домашний</h3>
+              <p class="description-menu-item">Lorem, ipsum dolor sit amet</p>
+
+          </div>
+      </div>
+      <div class="menu-item">
+          <img src="./assets/menu3.png" alt="img-menu-item"/>
+          <div class="menu-item-content">
+              <h3 class="title-menu-item">Булочка с корицей</h3>
+              <p class="description-menu-item">Lorem, ipsum dolor sit amet</p>
+
+          </div>
+      </div>
+      </div>
+      <button class="btn btn-order">Заказать</button>
+  </section>
+<section class="order container">
+    <a name="order"></a>
+    <div class="order-content">
+        <h2 class="title-order">Прием заказов</h2>
+        <p>Оставьте ваши контактные данные и мы перезвоним вам для согласования деталей заказа</p>
+    </div >
+    <div class="order-content">
+    <form action="url" class="form">
+        <input type="text" placeholder="Ваше имя" name="name" class="inp-form">
+        <input type="tel" placeholder="Номер телефона" name="phone" class="inp-form">
+        <input type="email" placeholder="E-mail" name="email" class="inp-form">
+        <input type="submit" value="Отправить" class="btn">
+        <div class="agree-cook">
+            <input type="checkbox" name="data" id="data">
+            <label for="data">Согласен(а) на обработку персональных данных</label>
+        </div>
+    </form>
+    </div>
+</section>
+<footer class="footer container">
+    <img src="./assets/logo-dark.svg" alt="logo">
+    <div class="social-net">
+        <a href="url-inst">
+            <img src="./assets/instagram.svg" alt="inst">
+        </a>
+        <a href="url-facebook">
+            <img src="./assets/facebook.svg" alt="facebook">
+        </a>
+        <a href="url-twitter">
+            <img src="./assets/twitter.png" alt="twitter">
+        </a>
+
+    </div>
+</footer>
+</body>
+<script src="./script.js"></script>
+</html>
